@@ -2,10 +2,10 @@ s_start As screen:
     Fill: =RGBA(254, 254, 254, 1)
 
     Image1 As image:
-        Height: =753
+        Height: =754
         Image: =bgr_login
         Width: =1366
-        Y: =15
+        Y: =13
         ZIndex: =1
 
     Button1 As button:

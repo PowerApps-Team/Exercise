@@ -1,8 +1,63 @@
 cpn_header As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
-    Width: =640
+    Height: =64
+    Width: =1366-64
     X: =0
     Y: =0
     ZIndex: =1
+
+    Rectangle1 As rectangle:
+        Fill: =RGBA(168, 218, 220, 1)
+        Height: =64
+        Width: =1301
+        ZIndex: =1
+
+    Image4 As image:
+        Height: =52
+        Image: =logo1
+        Width: =74
+        X: =20
+        Y: =6
+        ZIndex: =2
+
+    TextInput1 As text:
+        Default: ="Đầu vào văn bản"
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =505
+        X: =361
+        Y: =12
+        ZIndex: =4
+
+    ic_notify As icon.Bell:
+        Icon: =Icon.Bell
+        Width: =50
+        X: =1024
+        ZIndex: =5
+
+    ic_settings As icon.Settings:
+        Icon: =Icon.Settings
+        Width: =50
+        X: =1095
+        ZIndex: =6
+
+    ic_help As icon.Help:
+        Icon: =Icon.Help
+        Width: =50
+        X: =1161
+        ZIndex: =7
+
+    ic_user As icon.Person:
+        Icon: =Icon.Person
+        Width: =50
+        X: =1232
+        ZIndex: =8
+
+    ic_search As icon.Search:
+        Icon: =Icon.Search
+        Width: =50
+        X: =
+        ZIndex: =9
 
