@@ -37,3 +37,8 @@ s_start As screen:
         Y: =181
         ZIndex: =4
 
+    Image2 As image:
+        Image: =logo
+        Width: =156
+        ZIndex: =5
+
