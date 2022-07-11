@@ -10,7 +10,17 @@
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
-  "CustomProperties": [],
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "menu1NavItem",
+      "Hidden": false,
+      "Name": "menu1NavItem",
+      "PropertyDataTypeKey": "Table",
+      "Tooltip": "Một thuộc tính tùy chỉnh",
+      "Type": "{\"Version\":\"1.324\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Table\",\"EnumString\":\"\",\"Type\":[{\"Name\":\"Title\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}]}}"
+    }
+  ],
   "FirstParty": true,
   "Id": "http://microsoft.com/appmagic/Component",
   "IsComponentLocked": false,
@@ -19,7 +29,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637931288921964633",
+  "LastModifiedTimestamp": "637931237559216414",
   "Name": "fab47349bf5a4fe28ab391bd16789117",
   "OverridableProperties": {},
   "Version": "637931236760652090"

@@ -91,7 +91,7 @@
     "OriginatingVersion": "1.324"
   },
   "PublishInfo": {
-    "AppName": "Exercise_one",
+    "AppName": "Exercise",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
@@ -103,6 +103,7 @@
   },
   "ScreenOrder": [
     "s_start",
-    "note"
+    "note",
+    "s_main"
   ]
 }

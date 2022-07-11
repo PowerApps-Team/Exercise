@@ -1,7 +1,7 @@
 cpn_header As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =64
-    Width: =1366-64
+    Width: =1366
     X: =0
     Y: =0
     ZIndex: =1
@@ -10,54 +10,57 @@ cpn_header As CanvasComponent:
         Fill: =RGBA(168, 218, 220, 1)
         Height: =64
         Width: =1301
+        X: =64
         ZIndex: =1
 
-    Image4 As image:
+    img_logo As image:
         Height: =52
         Image: =logo1
         Width: =74
-        X: =20
+        X: =Rectangle1.X
         Y: =6
         ZIndex: =2
 
-    TextInput1 As text:
+    tinput_search As text:
         Default: ="Đầu vào văn bản"
         RadiusBottomLeft: =100
         RadiusBottomRight: =100
         RadiusTopLeft: =100
         RadiusTopRight: =100
         Width: =505
-        X: =361
+        X: =342
         Y: =12
         ZIndex: =4
 
     ic_notify As icon.Bell:
         Icon: =Icon.Bell
         Width: =50
-        X: =1024
+        X: =1104
         ZIndex: =5
 
     ic_settings As icon.Settings:
         Icon: =Icon.Settings
         Width: =50
-        X: =1095
+        X: =1169
         ZIndex: =6
 
     ic_help As icon.Help:
         Icon: =Icon.Help
         Width: =50
-        X: =1161
+        X: =1235
         ZIndex: =7
 
     ic_user As icon.Person:
         Icon: =Icon.Person
         Width: =50
-        X: =1232
+        X: =Rectangle1.X+Rectangle1.Width-Self.Width
         ZIndex: =8
 
     ic_search As icon.Search:
+        Height: =tinput_search.Height
         Icon: =Icon.Search
-        Width: =50
-        X: =
+        Width: =40
+        X: =tinput_search.X + tinput_search.Width-Self.Width-10
+        Y: =tinput_search.Y
         ZIndex: =9
 

@@ -1,8 +1,67 @@
 cpn_menu1 As CanvasComponent:
-    Fill: =RGBA(0, 0, 0, 0)
-    Height: =768-64
+    Fill: =RGBA(168, 218, 220, 1)
+    Height: =768
+    menu1NavItem: |-
+        =Table(
+            {
+                Title: "BN"
+                
+            },
+            {
+                Title: "QH"
+                
+            },
+            {
+                Title: "ĐG"
+               
+            },
+            {
+                Title: "TL"    
+            }
+           
+        )
     Width: =64
     X: =0
     Y: =0
     ZIndex: =1
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =1
+        Fill: =RGBA(0, 0, 0, 0)
+        Height: =699
+        Width: =64
+        Y: =ic_toggleMenu1.Width+5
+        ZIndex: =1
+
+    "g_itemMenu1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver4.0'":
+        Items: =cpn_menu1.menu1NavItem
+        Layout: =Layout.Vertical
+        TemplatePadding: =0
+        TemplateSize: =58
+        Visible: =_showMenu1
+        Width: =64
+        Y: =Rectangle2.Y
+        ZIndex: =2
+
+        t_menu1Title As label:
+            Align: =Align.Center
+            Fill: =If(ThisItem.IsSelected,White,RGBA(168, 218, 220, 1))
+            Height: =36
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Text: =ThisItem.Title
+            VerticalAlign: =VerticalAlign.Top
+            Width: =Parent.Width-2
+            X: =1
+            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            ZIndex: =1
+
+    ic_toggleMenu1 As icon.Waffle:
+        Icon: =Icon.Waffle
+        OnSelect: =Set(_showMenu1,!_showMenu1)
+        ZIndex: =3
 

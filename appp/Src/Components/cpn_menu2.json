@@ -5,8 +5,8 @@
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "cpn_header",
-    "TemplateGuid": "91521973743d4481817971f89773d9a7"
+    "Name": "cpn_menu2",
+    "TemplateGuid": "a1b0844f5dd34bbc8faba7c3b7350849"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,8 +19,8 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637931237559213076",
-  "Name": "91521973743d4481817971f89773d9a7",
+  "LastModifiedTimestamp": "637931284732951779",
+  "Name": "a1b0844f5dd34bbc8faba7c3b7350849",
   "OverridableProperties": {},
-  "Version": "637931236750215595"
+  "Version": "637931283103879337"
 }
