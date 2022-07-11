@@ -87,11 +87,11 @@
     "Id": "8f347cf5-4a08-4078-9f2b-59a249499f02",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
-    "Name": "Exercise",
+    "Name": "Exercise_one",
     "OriginatingVersion": "1.324"
   },
   "PublishInfo": {
-    "AppName": "Exercise",
+    "AppName": "Exercise_one",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
