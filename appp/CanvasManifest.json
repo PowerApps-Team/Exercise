@@ -99,7 +99,7 @@
     "PublishDataLocally": false,
     "PublishResourcesLocally": false,
     "PublishTarget": "player",
-    "UserLocale": "en-US"
+    "UserLocale": "vi-VN"
   },
   "ScreenOrder": [
     "s_start"
