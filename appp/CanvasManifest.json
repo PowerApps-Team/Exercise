@@ -103,6 +103,7 @@
   },
   "ScreenOrder": [
     "s_start",
-    "note"
+    "note",
+    "s_main"
   ]
 }
