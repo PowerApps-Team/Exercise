@@ -2,15 +2,15 @@
   "ComponentIndexes": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button1": 6,
-    "Image1": 5,
-    "Label2": 7,
-    "Label3": 8,
+    "Button1": 7,
+    "Image1": 4,
+    "Label2": 5,
+    "Label3": 6,
     "s_start": 3
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/11/2022 08:01:36",
+  "HeaderLastSavedDateTimeUTC": "07/11/2022 08:07:04",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -18,7 +18,7 @@
     "bgr_login": "2cef9d56-9a7e-4f1e-90a7-26a5cddc2b2a.jpg"
   },
   "LocalResourceRootPaths": {
-    "bgr_login": "https://docserverpwaprodwus.blob.core.windows.net/6029a463-b554-44c2-9c81-ad7cadab700b-1/resource/1e81d495-d6cb-48dd-bce1-6266704a0847.jpg?sv=2017-04-17&sr=b&sig=lWl1L3Q3dJH8eC370oS8medA1%2BYhNim15B3MFfYsv6s%3D&spr=https&se=2022-07-12T08%3A13%3A56Z&sp=r"
+    "bgr_login": "https://docserverpwaprodeus.blob.core.windows.net/5211937d-96c0-4637-b7a9-56160495bb25-1/resource/Assets0Images02cef9d56-9a7e-4f1e-90a7-26a5cddc2b2a.jpg?sv=2017-04-17&sr=b&sig=ToVvRX5eQVF491Qi84fsrU76U%2BJWAoyqmIHy%2FM4TnsY%3D&spr=https&se=2022-07-12T08%3A21%3A52Z&sp=r"
   },
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -46,8 +46,14 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.020965,
-    "ControlCount": {},
+    "AnalysisLoadTime": 0.0749588,
+    "ControlCount": {
+      "button": 1,
+      "image": 1,
+      "label": 2,
+      "screen": 1
+    },
+    "DeserializationLoadTime": 0.9803918,
     "ErrorCount": 0
   },
   "WasLocalDatabaseReferencesEmpty": true
