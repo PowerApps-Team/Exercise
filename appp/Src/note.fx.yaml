@@ -1,0 +1,39 @@
+note As screen:
+
+    Label1 As label:
+        Height: =510
+        Size: =17
+        Text: |-
+            ="tên màn hình: s_name
+            Tên biến: _name
+            tên label: lb_name
+            text input: tinput_name
+            tên collection: col_name
+            gallery: g_name
+            container: cnt_name
+            form: f_name
+            button: btn_name
+            Image: img_name
+            Icon: ic_name
+            component:cpn_name
+            group: gr_name
+            datepicker: date_name
+            dữ liệu bên share point, data verse: data_name
+            
+            
+            
+             "
+        Width: =594
+        Y: =171
+        ZIndex: =1
+
+    Label4 As label:
+        Height: =82
+        Size: =20
+        Text: |-
+            ="name: đặt theo camelCase
+            làm riêng mỗi người 1 màn"
+        Width: =401
+        Y: =40
+        ZIndex: =2
+

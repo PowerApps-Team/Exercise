@@ -102,6 +102,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "s_start"
+    "s_start",
+    "note"
   ]
 }
