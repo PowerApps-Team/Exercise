@@ -1,7 +1,7 @@
 cpn_menu1 As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
-    Height: =640
-    Width: =640
+    Height: =768-64
+    Width: =64
     X: =0
     Y: =0
     ZIndex: =1
