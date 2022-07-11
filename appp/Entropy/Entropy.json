@@ -1,104 +1,22 @@
 {
-  "ComponentIndexes": {
-    "cpn_header": 1,
-    "cpn_menu1": 2
-  },
-  "ControlUniqueIds": {
-    "App": 1,
-    "Button1": 9,
-    "cpn_header": 3,
-    "cpn_menu1": 4,
-    "ic_help": 19,
-    "ic_notify": 17,
-    "ic_search": 21,
-    "ic_settings": 18,
-    "ic_user": 20,
-    "Image1": 6,
-    "Image2": 10,
-    "Image4": 14,
-    "Label1": 15,
-    "Label2": 7,
-    "Label3": 8,
-    "Rectangle1": 12,
-    "s_start": 5,
-    "TextInput1": 16
-  },
+  "ComponentIndexes": {},
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "07/11/2022 08:31:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {
-    "bgr_login": "0001.jpg",
-    "logo": "0002.png",
-    "logo1": "ca319b70-1a82-4989-b33e-fbdb39cbec55.png"
-  },
-  "LocalResourceRootPaths": {
-    "bgr_login": "https://docserverpwaprodwus.blob.core.windows.net/0160bd6a-3925-42f7-bbe9-8746f95421d9-1/resource/Assets0Images00001.jpg?sv=2017-04-17&sr=b&sig=lm87MWvYMbIPRdObxGejluotM4aPzV%2BE46DxWIXryEc%3D&spr=https&se=2022-07-12T08%3A24%3A38Z&sp=r",
-    "logo": "https://docserverpwaprodwus.blob.core.windows.net/0160bd6a-3925-42f7-bbe9-8746f95421d9-1/resource/Assets0Images00002.png?sv=2017-04-17&sr=b&sig=Yy6iwP0bWkEy5Q30qEa45OTQb0psjZo6TNxVnHTn1io%3D&spr=https&se=2022-07-12T08%3A24%3A38Z&sp=r",
-    "logo1": "https://docserverpwaprodwus.blob.core.windows.net/0160bd6a-3925-42f7-bbe9-8746f95421d9-1/resource/e399c41e-1f37-48d5-8d2b-d6693ceecc33.png?sv=2017-04-17&sr=b&sig=Bb1e%2B%2FZJl7NQ2vqClM0T7XH2eLFW%2B3GyzCKScd6kU4w%3D&spr=https&se=2022-07-12T08%3A35%3A25Z&sp=r"
-  },
-  "OrderComponentMetadata": {
-    "91521973743d4481817971f89773d9a7": 0,
-    "fab47349bf5a4fe28ab391bd16789117": 1
-  },
-  "OrderComponentTemplate": {
-    "91521973743d4481817971f89773d9a7": 0,
-    "fab47349bf5a4fe28ab391bd16789117": 1
-  },
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "button": 2,
-    "icon": 4,
-    "image": 0,
-    "label": 1,
-    "rectangle": 3,
-    "text": 5
-  },
-  "PublishOrderIndices": {
-    "App": 0,
-    "Button1": 4,
-    "cpn_header": 1,
-    "cpn_menu1": 2,
-    "ic_help": 9,
-    "ic_notify": 7,
-    "ic_search": 6,
-    "ic_settings": 8,
-    "ic_user": 10,
-    "Image1": 1,
-    "Image2": 0,
-    "Image4": 11,
-    "Label1": 12,
-    "Label2": 2,
-    "Label3": 3,
-    "Rectangle1": 5,
-    "s_start": 4,
-    "TextInput1": 13
-  },
-  "ResourcesJsonIndices": {
-    "Image-bgr_login": 1,
-    "Image-logo": 2,
-    "Image-logo1": 3,
-    "Image-SampleImage": 0
-  },
+  "OrderXMLTemplate": {},
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.02702,
-    "ControlCount": {
-      "91521973743d4481817971f89773d9a7": 1,
-      "button": 1,
-      "fab47349bf5a4fe28ab391bd16789117": 1,
-      "image": 2,
-      "label": 2,
-      "screen": 1
-    },
-    "DeserializationLoadTime": 1.4021468,
-    "ErrorCount": 0
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }

@@ -20,12 +20,6 @@ cpn_header As CanvasComponent:
         Y: =6
         ZIndex: =2
 
-    Label1 As label:
-        Text: ="EVN VIET NAM"
-        X: =122
-        Y: =12
-        ZIndex: =3
-
     TextInput1 As text:
         Default: ="Đầu vào văn bản"
         RadiusBottomLeft: =100
