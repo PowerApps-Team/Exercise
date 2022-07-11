@@ -40,7 +40,7 @@
         {
           "Category": "Design",
           "PropertyName": "Width",
-          "RuleProviderType": "System"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1321,7 +1321,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "TextInput1",
-      "ParentIndex": 7,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
