@@ -1,0 +1,39 @@
+s_start As screen:
+    Fill: =RGBA(254, 254, 254, 1)
+
+    Image1 As image:
+        Height: =753
+        Image: =bgr_login
+        Width: =1366
+        Y: =15
+        ZIndex: =1
+
+    Button1 As button:
+        Height: =80
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =20
+        Text: ="Getstarted"
+        Width: =300
+        X: =864
+        Y: =324
+        ZIndex: =2
+
+    Label2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =72
+        Size: =25
+        Text: ="Welcome !"
+        Width: =360
+        X: =864
+        Y: =80
+        ZIndex: =3
+
+    Label3 As label:
+        Text: ="Text"
+        X: =864
+        Y: =181
+        ZIndex: =4
+
